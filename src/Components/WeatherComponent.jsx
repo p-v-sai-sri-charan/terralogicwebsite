@@ -109,7 +109,7 @@ const WeatherComponent = () => {
                 onChange={(e) => setLocation(e.target.value)}
                 placeholder="Enter a location"
                 />
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={searchLocation}>Search</button>
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" style={{borderRadius:"35px"}} onClick={searchLocation}>Search</button>
                 </div> */}
           {/* </div> */}
           <div className="flex justify-center items-center pt-4">
