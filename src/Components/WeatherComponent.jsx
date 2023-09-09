@@ -90,7 +90,7 @@ const WeatherComponent = () => {
               ? "clear-background"
               : data?.weather[0].main == "Clouds"
               ? "cloudy-background"
-              : data?.weather[0].main == "Mist"
+              : data?.weather[0].main == "Rain"
               ? "mist-background"
               : data?.weather[0].main == "Drizzle"
               ? "drizzle-background"
