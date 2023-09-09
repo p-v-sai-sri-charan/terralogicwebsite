@@ -64,7 +64,7 @@ const WeatherComponent = () => {
     const hour = DateTime.now()
       .toLocaleString(DateTime.TIME_SIMPLE)
       .split(":")[0];
-    const hours = Array.from({ length: 12 }, (_, i) => {
+    const hours = Array.from({ length: 6 }, (_, i) => {
       if (i + parseInt(hour) > 12) {
         return `${i + parseInt(hour) - 12}pm`;
       } else if (i + parseInt(hour) === 12) {
