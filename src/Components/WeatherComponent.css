@@ -9,3 +9,10 @@
     appearance: none;
     border-radius: 36px;
 }
+
+.p-button.p-button-icon-only {
+    width: 3rem;
+    padding: 0.75rem 0;
+    border-radius: 35px;
+    padding-left: 4px;
+}
